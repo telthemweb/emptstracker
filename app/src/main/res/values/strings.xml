@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Empts</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">employeetracker</string>
+    <string name="pref_file">com.chikurus.employeetracker.pref_file</string>
+    <string name="pref_logged_status">com.chikurus.employeetracker.pref_logged_status</string>
+    <string name="pref_empCode">com.chikurus.employeetracker.pref_empCode</string>
+    <string name="pref_emp_fullname">com.chikurus.employeetracker.pref_emp_fullname</string>
+</resources>

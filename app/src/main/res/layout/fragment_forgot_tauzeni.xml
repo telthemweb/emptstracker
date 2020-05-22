@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:background="@drawable/back"
+    tools:context=".fragmentData.ForgotTauzeniFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMPTS"
+        android:textColor="#ffff"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="22dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/fprgotpassText"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="28dp"
+        android:text="Make sure you are providing valid email address inorder for you to reset password"
+        android:textColor="#434de1"
+        android:background="#fff"
+        android:padding="12dp"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/empEmail"
+        android:hint="Email Address"
+        android:textColorHint="#fff"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:inputType="text" />
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/login_button"
+        android:layout_width="350dp"
+        android:layout_height="56dp"
+        android:background="#f54a4b"
+        android:textColor="#ffff"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="27dp"
+        android:text="Verify Email" />
+
+</LinearLayout>
